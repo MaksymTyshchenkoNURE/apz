@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smartwarehouse-api
+  labels:
+    app: smartwarehouse-api
+spec:
+  replicas: 3 # Початкова кількість серверів
+  selector:
+    matchLabels:
+      app: smartwarehouse-api
+  template:
+    metadata:
+      labels:
+        app: smartwarehouse-api
+    spec:
+      containers:
+      - name: api
+        image: your-dockerhub-username/smartwarehouse-api:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ConnectionStrings__DefaultConnection
+          value: "Host=postgres-db;Database=WarehouseDB;Username=admin;Password=secret"
+        resources:
+          requests:
+            cpu: "100m" # Мінімально гарантований CPU (10% ядра)
+            memory: "128Mi"
+          limits:
+            cpu: "250m" # Жорсткий ліміт CPU (25% ядра), після якого починаються "гальма"
+            memory: "256Mi"

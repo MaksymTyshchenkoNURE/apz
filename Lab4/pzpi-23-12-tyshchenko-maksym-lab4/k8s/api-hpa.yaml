@@ -1,0 +1,18 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: smartwarehouse-api-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: smartwarehouse-api
+  minReplicas: 1   # Мінімум 1 сервер у спокійний час
+  maxReplicas: 10  # Максимум 10 серверів під час пікового навантаження
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70 # Додати новий сервер, якщо CPU > 70%
