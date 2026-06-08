@@ -1,0 +1,14 @@
+C:\Users\saxonec\source\repos\Pract1\Pract1\bin\Debug\net8.0\Pract1.exe
+C:\Users\saxonec\source\repos\Pract1\Pract1\bin\Debug\net8.0\Pract1.deps.json
+C:\Users\saxonec\source\repos\Pract1\Pract1\bin\Debug\net8.0\Pract1.runtimeconfig.json
+C:\Users\saxonec\source\repos\Pract1\Pract1\bin\Debug\net8.0\Pract1.dll
+C:\Users\saxonec\source\repos\Pract1\Pract1\bin\Debug\net8.0\Pract1.pdb
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.AssemblyInfoInputs.cache
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.AssemblyInfo.cs
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.csproj.CoreCompileInputs.cache
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.dll
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\refint\Pract1.dll
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.pdb
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\Pract1.genruntimeconfig.cache
+C:\Users\saxonec\source\repos\Pract1\Pract1\obj\Debug\net8.0\ref\Pract1.dll

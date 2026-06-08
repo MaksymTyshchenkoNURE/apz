@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartWarehouse.API")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4da9b422a3c19a074d4c37e7f8980e881a3828d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4745cb61b0aa3b794e0bb52eed5abd833a58164c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartWarehouse.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartWarehouse.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
